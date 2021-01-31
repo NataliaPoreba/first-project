@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home" >
-        <p className="name">Home</p>
+        <p className="name"></p>
         <div className="imgContiner">
           <img src={this.props.imgPath} alt="" />
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Support = () => {
-    <div className='support'>
+    return <div className='support'>
     <span>Wyciągniemy Cię z najdalszej części galaktyki</span>
     </div>
 }

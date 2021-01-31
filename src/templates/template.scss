@@ -1,7 +1,8 @@
-// @mixin primary-color {
-//     color: rgba(255, 0, 98, 0.69);
-// }
+@mixin primary-color {
+    color: rgba(165, 3, 46, 0.52);
+}
 
-// .App {
-//     @include primary-color;
-// }
+.app {
+    @include primary-color;
+}
+

@@ -4,10 +4,10 @@ import Home from './pages/home/home';
 import Contact from './pages/contact/contact';
 import Faqs from './pages/faqs/faqs';
 import About from './pages/about/about';
-import Support from '.pages/support/support';
+import Support from './pages/support/support';
 
 import Button from './components/button/button'
-import './App.css';
+
 import './App.scss';
 
 
@@ -17,50 +17,52 @@ class App extends Component {
     return (
 
       <div>
-        <Router>
-        <ul className="nav">
-        <li><p>PO PROSTU CV</p></li>
-          <li> <Link to="/">
-            <p>Home</p>
-          </Link></li>
-          <li> <Link to="/contact">
-            <p>Contact</p>
-          </Link></li>
-          <li>
-            <Link to="/faqs">
-              <p>Faqs</p>
-            </Link>
-          </li>
-          <li>
-          <Link to="/about">
-            <p>About</p>
-          </Link>
-          </li>
-          <li>
-          <Link to="/support">
-            <p>Support</p>
+
+      <Router>
+      <ul className="nav">
+      <li><p>PO PROSTU CV</p></li>
+        <li> <Link to="/">
+          <p>Home</p>
+        </Link></li>
+        <li> <Link to="/contact">
+          <p>Contact</p>
+        </Link></li>
+        <li>
+          <Link to="/faqs">
+            <p>Faqs</p>
           </Link>
         </li>
-        </ul>
-
-
-        <Route exact path="/" >
-          <Home imgPath='./components/picture/zdjecie1.jpg'></Home>
-        </Route>
-        <Route exact path="/contact" >
-          <Contact></Contact>
-        </Route>
-        <Route exact path="/faqs">
-          <Faqs></Faqs>
-        </Route>
-        <Route exact path="/about">
-          <About></About>
-        </Route>
-        <Route exact path="/support">
-          <Support></Support>
-        </Route>
-
-        </Router> 
+        <li>
+        <Link to="/about">
+          <p>About</p>
+        </Link>
+        </li>
+        <li>
+        <Link to="/support">
+          <p>Support</p>
+        </Link>
+      </li>
+      </ul>
+    
+    
+      <Route exact path="/" >
+        <Home imgPath='./components/picture/zdjecie1.jpg'></Home>
+      </Route>
+      <Route exact path="/contact" >
+        <Contact></Contact>
+      </Route>
+      <Route exact path="/faqs">
+        <Faqs></Faqs>
+      </Route>
+      <Route exact path="/about">
+        <About></About>
+      </Route>
+      <Route exact path="/support">
+        <Support></Support>
+      </Route>
+    
+      </Router> 
+       
 
      
        
@@ -81,3 +83,4 @@ class App extends Component {
 
   
   // <Route exact path="/support" component={Support} />
+

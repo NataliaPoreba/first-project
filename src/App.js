@@ -5,7 +5,6 @@ import Contact from './pages/contact/contact';
 import Faqs from './pages/faqs/faqs';
 import About from './pages/about/about';
 import Support from './pages/support/support';
-import Button from './components/button/button'
 import './App.scss';
 
 
@@ -44,7 +43,7 @@ class App extends Component {
     
     
       <Route exact path="/" >
-        <Home imgPath='./components/picture/zdjecie1.jpg'></Home>
+      <Home imgPath='./picture/zdjecie1.jpg'></Home>
       </Route>
       <Route exact path="/contact" >
         <Contact></Contact>
@@ -62,11 +61,7 @@ class App extends Component {
       </Router> 
        
 
-      <div className="app">
-        <h1> Szybki i prosty kreator CV online</h1>
-        <p>W kreatorze PO PROSTU CV znajdziesz profesjonalne szablony CV do wypełnienia i stworzysz CV online w kilka minut.</p>
-        <Button/>
-      </div>
+      
       </div>
     )}}
   export default App; 

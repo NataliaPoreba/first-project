@@ -12,9 +12,9 @@
     width: 55%;
     height: 100%;
     margin: 80px;
-    border: 0.1px dotted $primary-color;
+    // border: 0.1px dotted $primary-color;
     padding: 50px;
-    box-shadow: 2px 0px $primary-color;
+    // box-shadow: 2px 0px $primary-color;
     text-align: left;
     align-content: flex-start;
   }
@@ -32,8 +32,9 @@
         text-decoration: none;
       }
       &:hover {
-        background-color: $primary-color;
+        // background-color: $primary-color;
       }
     }
   }
 }
+

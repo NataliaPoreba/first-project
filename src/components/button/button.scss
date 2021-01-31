@@ -1,0 +1,29 @@
+.button1 {
+    width: auto;
+    margin: auto;
+    border: 1px solid blue;
+    box-shadow: 0 2px 3px #ccc;
+    background: black;
+    color: whitesmoke;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .button2 {
+    width: auto;
+    margin: auto;
+    border: 1px solid purple;
+    box-shadow: 0 2px 3px #ccc;
+    background: whitesmoke;
+    color: black;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;
+  }
+  

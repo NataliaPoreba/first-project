@@ -5,9 +5,7 @@ import Contact from './pages/contact/contact';
 import Faqs from './pages/faqs/faqs';
 import About from './pages/about/about';
 import Support from './pages/support/support';
-
 import Button from './components/button/button'
-
 import './App.scss';
 
 
@@ -62,9 +60,6 @@ class App extends Component {
       </Route>
     
       </Router> 
-       
-
-     
        
 
       <div className="app">
